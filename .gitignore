@@ -1,0 +1,30 @@
+# Compiled
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+dependency-reduced-pom.xml
+maven-metadata-local.xml
+
+# Secrets & Logs
+.env
+*.key
+*.pem
+secrets/
+*.log
