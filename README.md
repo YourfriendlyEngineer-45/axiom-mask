@@ -11,6 +11,12 @@ Deterministic, zero-dependency PII anonymization for Java.
 ## Installation
 Add to your `pom.xml`:
 ```xml
+<repositories>
+       <repository>
+           <id>github</id>
+           <url>https://maven.pkg.github.com/YourfriendlyEngineer-45/axiom-mask</url>
+       </repository>
+   </repositories>
 <dependency>
     <groupId>com.codex.axiom</groupId>
     <artifactId>axiom-mask</artifactId>
