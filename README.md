@@ -32,6 +32,8 @@ public class Example {
     public static void main(String[] args) {
         String safeEmail = AxiomMask.maskEmail("user@company.com");
         // Output: <base64hash>@masked.local
+        // Invalid input fails fast, preventing silent data corruption
+        // AxiomMask.maskEmail("not-an-email"); // throws IllegalArgumentException
     }
 }
 ```
